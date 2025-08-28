@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layouts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Responsive Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main class="grid-container">
+        <section class="main-content">
+            <h2>Main Content Area</h2>
+            <p>This section uses CSS Grid for the overall page layout. It will contain a series of articles.</p>
+            <div class="flex-container">
+                <article class="card">
+                    <h3>Article 1</h3>
+                    <p>This card is part of a Flexbox layout. All the cards will align nicely in a row.</p>
+                </article>
+                <article class="card">
+                    <h3>Article 2</h3>
+                    <p>Flexbox is great for arranging items in a single row or column, which is perfect for these cards.</p>
+                </article>
+                <article class="card">
+                    <h3>Article 3</h3>
+                    <p>The cards will wrap to the next line on smaller screens, demonstrating responsiveness.</p>
+                </article>
+            </div>
+        </section>
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <p>This sidebar is also part of the CSS Grid layout. On smaller screens, it will move below the main content.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2025 Responsive Layouts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
